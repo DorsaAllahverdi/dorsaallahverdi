@@ -1,0 +1,8 @@
+.projects {
+    background: linear-gradient(89deg, #d5873a 0%, #47d53a 100%);
+    width: 100wv;
+    max-width: inherit;
+    min-height: 800px;
+    max-height: 1000px;
+    display: grid;
+}

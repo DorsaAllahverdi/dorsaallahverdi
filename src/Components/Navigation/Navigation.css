@@ -1,0 +1,10 @@
+.navbar {
+  background: -webkit-linear-gradient(0deg, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-text-fill-color: white;
+  border-bottom:white solid 2px;
+  position: sticky;
+  width: 100%;
+  top: 0px;
+  display: block;
+  z-index: 9999;
+}

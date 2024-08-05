@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1, p, a{
+  color: black;
+}
+
+.gradient-font-color {
+  background: -webkit-linear-gradient(0deg, #3acfd5 0%, #3a4ed5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-border-color {
+  border-image: linear-gradient(89deg, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-width: 4px;
+  border-style: solid;
+}
+
+
+.gradient-border-color:hover {
+  border-image: linear-gradient(89deg, #3acfd5 0%, #3a4ed5 100%) 1;
+  border-width: 4px;
+  border-style: solid;
+  background: -webkit-linear-gradient(0deg, #3acfd5 0%, #3a4ed5 100%);
+  -webkit-text-fill-color: white;
+}

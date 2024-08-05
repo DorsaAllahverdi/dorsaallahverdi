@@ -1,0 +1,19 @@
+.about-me {
+    background: linear-gradient(89deg, #3acfd5 0%, #3a4ed5 100%);
+    width: 100wv;
+    max-width: inherit;
+    min-height: 660px;
+    display: grid;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 100%;
+}
