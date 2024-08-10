@@ -5,6 +5,9 @@ import AppHeader from './Components/AppHeader/AppHeader';
 import Navigation from './Components/Navigation/Navigation';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
+import ProjectsLayout from './Components/Projects/ProjectsLayout/ProjectsLayout';
+import FaceRecognitionProj from './Components/Projects/FaceRecognitionProj/FaceRecognitionProj';
+import RoboFriendsProj from './Components/Projects/RoboFriendsProj/RoboFriendsProj';
 
 function App() {
   return (
@@ -13,7 +16,14 @@ function App() {
       <AppHeader />
       <Navigation />
       <AboutMe />
-      <Projects />
+      <Projects>
+        <ProjectsLayout>
+          <FaceRecognitionProj />
+        </ProjectsLayout>
+        <ProjectsLayout>
+          <RoboFriendsProj />
+        </ProjectsLayout>
+      </Projects>
     </div>
   );
 }

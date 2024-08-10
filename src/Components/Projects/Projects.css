@@ -1,8 +1,16 @@
 .projects {
-    background: linear-gradient(89deg, #d5873a 0%, #47d53a 100%);
+    background: #3acfd5 ;
     width: 100wv;
     max-width: inherit;
-    min-height: 800px;
-    max-height: 1000px;
+    min-height: 660px;
     display: grid;
+    box-sizing: border-box;
+}
+
+.project-list {
+    margin:0% 10%;
+}
+
+.madiv {
+    margin: 60px 0px 120px;
 }

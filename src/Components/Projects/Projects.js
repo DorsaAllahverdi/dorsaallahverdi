@@ -1,13 +1,14 @@
 import React from 'react';
 import './Projects.css';
 
-const Projects = () => {
+const Projects = (props) => {
     return (
-        <section id='proj' className='projects' style={{border: '3px solid black'}}>
-            <div className='db'>
-                <p className='pa5'>
-                    kjhkhkgk
-                </p>
+        <section id='projects' className='projects'>
+            <div className='pa2 ma5'>
+                <h1>My Projects</h1>
+                <div className='project-list'>
+                    {props.children}
+                </div>
             </div>
         </section>   
     );
