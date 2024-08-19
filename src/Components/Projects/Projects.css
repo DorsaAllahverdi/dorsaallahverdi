@@ -1,5 +1,5 @@
 .projects {
-    background: #3acfd5 ;
+    background: rgb(224, 240, 245) ;
     width: 100wv;
     max-width: inherit;
     min-height: 660px;
@@ -12,5 +12,5 @@
 }
 
 .madiv {
-    margin: 60px 0px 120px;
+    margin: 60px 0px 60px;
 }

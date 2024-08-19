@@ -6,6 +6,7 @@ import Navigation from './Components/Navigation/Navigation';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import ProjectsLayout from './Components/Projects/ProjectsLayout/ProjectsLayout';
+import ContactMe from './Components/ContactMe/ContactMe';
 import FaceRecognition from './Components/Projects/FaceRecognition.png';
 import FaceRecognitionHooks from './Components/Projects/FaceRecognitionHooks.png';
 import RoboFriends from './Components/Projects/RoboFriends.png';
@@ -37,6 +38,7 @@ function App() {
           projLiveUrl='https://robofriends-black.vercel.app/'
           projCodeUrl='https://github.com/DorsaAllahverdi/robofriends' />
       </Projects>
+      <ContactMe />
     </div>
   );
 }
